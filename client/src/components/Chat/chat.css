@@ -1,0 +1,200 @@
+.header {
+    background: url('../../img/bg-pic.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
+}
+
+.title {
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 140px;
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+
+.bg-color {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 650px;
+    min-width: 770px;
+}
+
+.form-control {
+    background-color: transparent;
+    border-radius: 0px;
+    color: #fff !important;
+    border-color: #5021be;
+}
+
+.form-control:focus {
+    border-color: #5021be;
+    background-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+input.login{
+    border-radius: 6px;
+}
+input.form-control {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    clear: both
+}
+
+.contact-form {
+    margin-top: 70px;
+}
+
+.contact-form input.form-control {
+    color: #fff;
+}
+
+.btn-download,
+.btn-login,
+.btn-download:hover,
+.btn-download:focus,
+.btn-login:focus {
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 10px 30px;
+    border-radius: 60px;
+    margin: 0;
+    outline: none !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all 0.3s;
+}
+
+.btn-download {
+    background-color: #5021be
+}
+
+.btn-login,
+.btn-login:focus {
+    margin-left: 15px;
+    border: 1px solid #5021be;
+    color: #fff;
+}
+
+.btn-login:focus {
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.btn-login:hover {
+    background: #5021be;
+    color: #fff;
+}
+
+.msgform {
+    border: 1px solid #5021be;
+    color: #fff;
+}
+
+form input {
+    border: 0;
+    padding: 10px;
+    width: 90%;
+    margin-right: .5%;
+}
+
+.mainwrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+    max-width: 700px;
+    clear: both
+}
+
+#chatroom {
+    display: none;
+}
+
+#chatwrapper {
+    border: 1px #5021be solid;
+    border-radius: 10px;
+    overflow-y: hidden;
+    width: 75%;
+    float: left;
+}
+
+.usertxt,
+.chattxt {
+    max-width: 85%;
+    overflow: none;
+}
+
+.user,
+.others {
+    clear: both;
+}
+
+.user {
+    float: right;
+}
+
+.others {
+    float: left;
+}
+
+#chatwindow {
+    height: 400px;
+    padding: 15px;
+    color: #fff;
+    overflow-y: scroll;
+}
+
+#msg ,#msg :focus {
+    margin: 0 auto;
+    float: left;
+    background: transparent;
+    color: #fff;
+    
+}
+
+#msg {
+    width: 80%;
+}
+#send,
+#send:focus {
+    border: 1px solid #5021be;
+    color: #fff;
+}
+#send {
+    width: 20%;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    outline: none !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all 0.3s;
+    float: right;
+}
+
+#userwrapper {
+    float: left;
+    padding: 10px;
+    background: transparent;
+    width: 150px;
+    margin: 0 auto;
+    color: #fff;
+    max-height: 450px;
+}
