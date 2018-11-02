@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Run `cd chatApp && npm install` 
+1. Run `npm install` 
 
 2. Run `cd client && npm install` 
 
